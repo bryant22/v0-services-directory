@@ -24,9 +24,7 @@ export function ServiceDirectory({ services, title = "AI Services Directory" }: 
       <div className="container max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">{title}</h2>
-          <p className="max-w-[85%] text-muted-foreground md:text-lg">
-            Discover powerful AI services
-          </p>
+          <p className="max-w-[85%] text-muted-foreground md:text-lg">Discover powerful AI services</p>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
@@ -35,13 +33,13 @@ export function ServiceDirectory({ services, title = "AI Services Directory" }: 
               className="flex h-full flex-col rounded-xl transition-all duration-200 hover:shadow-md dark:hover:shadow-none dark:hover:bg-accent/20 dark:border-border"
             >
               <CardHeader className="flex flex-row items-center gap-4 pb-2">
-                <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-md bg-primary/10 dark:bg-primary/20">
+                <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-md bg-primary/10 dark:bg-primary/20">
                   <Image
                     src={service.iconSrc || "/placeholder.svg"}
                     alt={`${service.name} icon`}
-                    width={40}
-                    height={40}
-                    className="h-8 w-8 object-contain"
+                    width={32}
+                    height={32}
+                    className="h-6 w-6 object-contain"
                   />
                 </div>
                 <h3 className="text-xl font-medium text-foreground">{service.name}</h3>
