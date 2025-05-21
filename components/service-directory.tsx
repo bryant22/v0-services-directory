@@ -25,7 +25,7 @@ export function ServiceDirectory({ services, title = "AI Services Directory" }: 
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">{title}</h2>
           <p className="max-w-[85%] text-muted-foreground md:text-lg">
-            Discover and integrate powerful AI services
+            Discover powerful AI services
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
