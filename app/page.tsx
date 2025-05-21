@@ -1,6 +1,6 @@
 import { type Service, ServiceDirectory } from "@/components/service-directory"
 
-// Sample data for demonstration
+// Sample data
 const services: Service[] = [
   {
     id: "pricing",
