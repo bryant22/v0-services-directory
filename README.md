@@ -1,10 +1,10 @@
 # Service Directory Component
 
-A clean, responsive, and accessible component for displaying a directory of services in a Next.js application. This component follows Vercel-style UI guidelines and is built with TypeScript, Tailwind CSS v4, and shadcn/ui components.
+A clean, responsive, and accessible component for displaying a directory of services in a Next.js application. This component is built with TypeScript, Tailwind CSS v4, and shadcn/ui components.
 
 ## Features
 
-- **Clean, Minimalist Design**: Following Vercel's design aesthetic with careful attention to typography and spacing
+- **Clean, Minimalist Design**: Following a monochromatic design system with careful attention to typography and spacing
 - **Fully Responsive**: Optimized for all screen sizes from mobile to desktop
 - **Dark/Light Mode Support**: Seamless theme switching with consistent design in both modes
 - **Accessible**: Semantic HTML, proper ARIA attributes, and keyboard navigation
